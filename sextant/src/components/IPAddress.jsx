@@ -22,7 +22,7 @@ const IPAddress = ({IPType}) => {
 
     return (
         <>
-        <p>{`User's ${IPType} address ${fetchedIP}`}</p>
+        <p>{`User's public ${IPType} address ${fetchedIP}`}</p>
         </>
     );
 }
